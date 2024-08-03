@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/dashboard.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>Subscriber | Dashboard</title>
+  </head>
+  <body>
+    <div class="header">
+      <img src="images/logo.png" alt="" />
+      <h1>Earn4Views</h1>
+      <a href="mainDashboard.html"><button>Back To Dashboard</button></a>
+    </div>
+
+    <div class="subheader">
+      <h1>Subscriber Statistics</h1>
+    </div>
+
+    <div class="servicetab">
+      <table border="2px">
+        <thead>
+          <tr>
+            <th>Sno</th>
+            <th>Title</th>
+            <th>Quantity</th>
+            <th>Channel Link</th>
+            <th>Select</th>
+          </tr>
+        </thead>
+        <tbody id="SubData">
+
+        </tbody>
+      </table>
+    </div>
+    <div class="serviceclrbtn">
+      <center>
+        <button id="btnclrsubscriber" onclick="ClearAll()">Clear All</button>
+        <button id="btnremsubscriber" onclick="SlectedDeleted()">Remove Selected</button>
+      </center>
+    </div>
+
+    <div class="footer">
+      <h3>@All Copyrights Reserved By Earn4Views</h3>
+    </div>
+    <script src="Js/FetchSubAdmin.js"></script>
+  </body>
+</html>

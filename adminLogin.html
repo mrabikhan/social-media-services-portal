@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AurLab | Login</title>
+    <link rel="stylesheet" href="css/dasboardlogin.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+
+  <body>
+    <div class="head">
+      <h1>Earn4Views</h1>
+      <img src="images/logo.png" alt="" />
+    </div>
+
+    <div class="subhead">
+      <h3>Views / Subscribers / Watch Time</h3>
+      <a href="authentication.html"><button>Go Back</button></a>
+    </div>
+
+    <div class="main">
+      <img src="images/backadminlogin.jpeg" alt="" />
+      <div class="form">
+        <h1><span class="fa fa-user"> Admin Login</span></h1>
+        <br /><br />
+        <label for="">Username: </label><br />
+        <input
+          type="text"
+          name="username"
+          id="user"
+          placeholder="Enter Your username"
+          required
+        /><br /><br />
+        <label for="">Password: </label><br />
+        <input
+          type="password"
+          name="pass"
+          id="pass"
+          placeholder="Enter Your Password"
+          required
+        /><br /><br />
+        <button onclick="verify()" id="btn1">Login</button>
+      </div>
+    </div>
+    <div class="footer">
+      <h3>@All Copyrights Reserved By Earn4Views</h3>
+    </div>
+    <script src="Js/adminauthscript.js"></script>
+  </body>
+</html>

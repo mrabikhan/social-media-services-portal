@@ -1,0 +1,198 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.head
+{
+    background-color: #5A2776;
+    padding: 35px;
+}
+
+.head h1
+{
+    position: absolute;
+    margin-left: 100px;
+    color: white;
+    margin-top: -20px;
+}
+
+.head img
+{
+    position: absolute;
+    height: 70px;
+    width: 70px;
+    margin-top: -35px;
+    transition: 0.8s;
+}
+
+.head img:hover
+{
+    transform: rotateY(180deg);
+    cursor: pointer;
+}
+
+.head h1:hover
+{
+    color: lime;
+}
+
+.subhead 
+{
+padding: 20px;
+background-color: black;
+border-bottom: 1px solid red;
+}
+
+.subhead h3
+{
+    position: absolute;
+    color: white;
+    position: flex;
+    margin-left: 470px;
+    margin-top: -10px;
+}
+
+.subhead button
+{
+    position: absolute;
+    background-color: green;
+    margin-left: 90%;
+    border: none;
+    color: white;
+    margin-top: -15px;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.subhead button:hover
+{
+    background-color: red;
+}
+
+.main img
+{
+    height: 780px;
+    width: 1349px;   
+}
+
+.footer
+{
+    padding: 28px;
+    background-color: rgb(35, 33, 39);
+    margin-top: -15px;
+}
+
+.footer h3
+{
+    color: white;
+}
+
+.form
+{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%,50%);
+    padding: 60px;
+    border: 1px solid blue;
+    background-color: black;
+    opacity: 87%;
+}
+
+.main h1
+{
+    color: white;
+    border-bottom: 1px solid blue;
+}
+
+.main label
+{
+    color: white;
+}
+
+#btn1{
+    background-color: red;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 40px;
+    width: 80px;
+}
+
+.main input
+{
+    padding: 5px;
+}
+
+#btn1:hover
+{
+    background-color: green;
+    cursor: pointer;
+}
+
+.main2 img
+{
+    width: 105px;
+    height: 80px;
+}
+
+.main2 h1
+{
+    font-size: 42px;
+    font-weight: bold;
+    padding: 10px;   
+    border-bottom: 1px solid red;
+}
+
+.main2 img
+{
+    margin-left: 35%;
+    margin-top: 10px;
+}
+
+.main2 button
+{
+    background-color: purple;
+    color: white;
+    width: 250px;
+    height: 120px;
+    border: none;
+    font-size: 32px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 60px;
+    border-radius: 15px;
+    transition: 0.3s;
+}
+
+.btn2
+{
+margin-left: 25%;
+}
+
+.btn2 button:hover
+{
+    background-color: darkblue;
+    box-shadow: 1px 2px 3px 4px palevioletred;
+}
+
+@media screen and (max-width:600px) {
+    .head h1{
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .subhead button{
+        padding: 5px;
+        margin-left: 67%;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .footer{
+        padding: 15px;
+        font-size: 14px;
+    }
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/buyerstyle.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="icon" href="images/logo.png" type="icon-x" />
+
+    <title>Buyer | Earn4Views</title>
+  </head>
+  <body>
+    <div class="nav">
+      <img src="images/logo.png" alt="" id="mainlogo" />
+      <ul reversed>
+        <li id="Auth"></li>
+        <li><a href="contact.html" class="fa fa-phone"> Contact</a></li>
+        <li><a href="buyer.html" class="fa fa-gear"> Services</a></li>
+        <li><a href="index.html" class="fa fa-home"> Home</a></li>
+      </ul>
+    </div>
+
+    <div class="cover">
+      <img src="images/banner3.png" alt="" />
+    </div>
+
+    <center>
+      <div class="formhead">
+        <h1>Services Form</h1>
+        <h2 class="fa fa-money">
+          Total Payable Amount:$ <span id="amount"> 0.00</span>
+        </h2>
+      </div>
+
+      <div class="form1">
+        <form accept="#">
+          <label for="Services">Select Services <br /></label>
+          <select id="Services" name="Services">
+            <option value="Subscriber">Youtube Subscriber</option>
+            <option value="WatchTime">Youtube Watch Time</option>
+            <option value="ViewCount">Youtube Views</option></select
+          ><br />
+          <label for="link">Enter link <br /></label>
+          <input
+            type="url"
+            id="link"
+            name="Enter link"
+            placeholder="Url"
+          /><br /><br />
+
+          <p>Enter Quantity</p>
+          <input type="number" id="qunt" /><br /><br />
+
+          <div class="buttonfunds">
+            <a href="addfunds.html" id="btnPay">
+              <button type="button" onclick="SubmitService()">Pay Now</button>
+            </a>
+          </div>
+        </form>
+      </div>
+    </center>
+    <div class="footer">
+      <h3>@All Copyrights Reserved By Earn4Views</h3>
+    </div>
+    <script src="Js/buyerscript.js"></script>
+    <script src="./Js/Account.js"></script>
+  </body>
+</html>
